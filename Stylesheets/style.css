@@ -1,0 +1,75 @@
+@media screen and (max-width: 1000px) {
+    .name {
+        font-size: 30px;
+        font-family: Monospace;
+        font-weight: lighter;
+        color: #2d3c49;
+        text-align: right;
+    }
+    .job {
+        font-size: 12px;
+        font-family: Serif;
+        color: #2d3c49;
+        text-align: right;
+    }
+    .logo {
+        float: left;
+        width: 70px;
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 1001px) {
+    .name {
+        font-size: 60px;
+        font-family: Monospace;
+        font-weight: lighter;
+        color: #2d3c49;
+        text-align: right;
+    }
+    .job {
+        font-size: 25px;
+        font-family: Serif;
+        color: #2d3c49;
+        text-align: right;
+    }
+    .logo {
+        float: left;
+        width: 140px;
+        padding-left: 10px;
+    }
+}
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+.right {
+    float: right;
+    width: 50%;
+}
+.header {
+    margin-top: 35px;
+}
+.divider {
+    border-top: 3px solid #7d97ad;
+}
+.main {
+    width: 100%;
+}
+.title {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #7d97ad;
+}
+.project-name {
+    color: #39414b;
+    font-family: Serif;
+}
+.project-img {
+    width: 90%;
+}
